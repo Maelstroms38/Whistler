@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B185B55E1CD8EE31001F69A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185B55D1CD8EE31001F69A8 /* AppDelegate.swift */; };
+		B185B5601CD8EE31001F69A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185B55F1CD8EE31001F69A8 /* ViewController.swift */; };
+		B185B5631CD8EE31001F69A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B185B5611CD8EE31001F69A8 /* Main.storyboard */; };
+		B185B5651CD8EE31001F69A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B185B5641CD8EE31001F69A8 /* Assets.xcassets */; };
+		B185B5681CD8EE31001F69A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B185B5661CD8EE31001F69A8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B185B55A1CD8EE31001F69A8 /* Whistler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whistler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B185B55D1CD8EE31001F69A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B185B55F1CD8EE31001F69A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B185B5621CD8EE31001F69A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B185B5641CD8EE31001F69A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B185B5671CD8EE31001F69A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B185B5691CD8EE31001F69A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B185B5571CD8EE31001F69A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B185B5511CD8EE31001F69A8 = {
+			isa = PBXGroup;
+			children = (
+				B185B55C1CD8EE31001F69A8 /* Whistler */,
+				B185B55B1CD8EE31001F69A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B185B55B1CD8EE31001F69A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B185B55A1CD8EE31001F69A8 /* Whistler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B185B55C1CD8EE31001F69A8 /* Whistler */ = {
+			isa = PBXGroup;
+			children = (
+				B185B55D1CD8EE31001F69A8 /* AppDelegate.swift */,
+				B185B55F1CD8EE31001F69A8 /* ViewController.swift */,
+				B185B5611CD8EE31001F69A8 /* Main.storyboard */,
+				B185B5641CD8EE31001F69A8 /* Assets.xcassets */,
+				B185B5661CD8EE31001F69A8 /* LaunchScreen.storyboard */,
+				B185B5691CD8EE31001F69A8 /* Info.plist */,
+			);
+			path = Whistler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B185B5591CD8EE31001F69A8 /* Whistler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B185B56C1CD8EE31001F69A8 /* Build configuration list for PBXNativeTarget "Whistler" */;
+			buildPhases = (
+				B185B5561CD8EE31001F69A8 /* Sources */,
+				B185B5571CD8EE31001F69A8 /* Frameworks */,
+				B185B5581CD8EE31001F69A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whistler;
+			productName = Whistler;
+			productReference = B185B55A1CD8EE31001F69A8 /* Whistler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B185B5521CD8EE31001F69A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Michael Stromer";
+				TargetAttributes = {
+					B185B5591CD8EE31001F69A8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B185B5551CD8EE31001F69A8 /* Build configuration list for PBXProject "Whistler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B185B5511CD8EE31001F69A8;
+			productRefGroup = B185B55B1CD8EE31001F69A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B185B5591CD8EE31001F69A8 /* Whistler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B185B5581CD8EE31001F69A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B185B5681CD8EE31001F69A8 /* LaunchScreen.storyboard in Resources */,
+				B185B5651CD8EE31001F69A8 /* Assets.xcassets in Resources */,
+				B185B5631CD8EE31001F69A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B185B5561CD8EE31001F69A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B185B5601CD8EE31001F69A8 /* ViewController.swift in Sources */,
+				B185B55E1CD8EE31001F69A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B185B5611CD8EE31001F69A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B185B5621CD8EE31001F69A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B185B5661CD8EE31001F69A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B185B5671CD8EE31001F69A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B185B56A1CD8EE31001F69A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B185B56B1CD8EE31001F69A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B185B56D1CD8EE31001F69A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Whistler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MVP.Whistler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B185B56E1CD8EE31001F69A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Whistler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MVP.Whistler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B185B5551CD8EE31001F69A8 /* Build configuration list for PBXProject "Whistler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B185B56A1CD8EE31001F69A8 /* Debug */,
+				B185B56B1CD8EE31001F69A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B185B56C1CD8EE31001F69A8 /* Build configuration list for PBXNativeTarget "Whistler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B185B56D1CD8EE31001F69A8 /* Debug */,
+				B185B56E1CD8EE31001F69A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B185B5521CD8EE31001F69A8 /* Project object */;
+}
