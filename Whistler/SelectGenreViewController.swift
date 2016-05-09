@@ -10,7 +10,7 @@ import UIKit
 
 class SelectGenreViewController: UITableViewController {
 
-    static var genres = ["Unknown", "Groceries", "Household", "Kitchen"]
+    static var genres = ["Unknown", "Golden Retriever", "Husky", "Labradoodle"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
