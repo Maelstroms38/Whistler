@@ -12,6 +12,14 @@
 		B185B5631CD8EE31001F69A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B185B5611CD8EE31001F69A8 /* Main.storyboard */; };
 		B185B5651CD8EE31001F69A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B185B5641CD8EE31001F69A8 /* Assets.xcassets */; };
 		B185B5681CD8EE31001F69A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B185B5661CD8EE31001F69A8 /* LaunchScreen.storyboard */; };
+		B185B5701CD8EEBC001F69A8 /* RecordVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185B56F1CD8EEBC001F69A8 /* RecordVoiceViewController.swift */; };
+		B185B5721CD8F2FB001F69A8 /* SelectGenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185B5711CD8F2FB001F69A8 /* SelectGenreViewController.swift */; };
+		B185B5741CD8F79C001F69A8 /* AddCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185B5731CD8F79C001F69A8 /* AddCommentsViewController.swift */; };
+		B185B5761CD8F88E001F69A8 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185B5751CD8F88E001F69A8 /* SubmitViewController.swift */; };
+		B185B5791CD8FF83001F69A8 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B185B5781CD8FF83001F69A8 /* CloudKit.framework */; };
+		B185B57B1CD904B8001F69A8 /* Whistle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185B57A1CD904B8001F69A8 /* Whistle.swift */; };
+		B18E6AF21CDA37D6009100EE /* UIViewController+FillWithView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E6AF11CDA37D6009100EE /* UIViewController+FillWithView.swift */; };
+		B18E6AF41CDA3884009100EE /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18E6AF31CDA3884009100EE /* ResultsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,15 @@
 		B185B5641CD8EE31001F69A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B185B5671CD8EE31001F69A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B185B5691CD8EE31001F69A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B185B56F1CD8EEBC001F69A8 /* RecordVoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordVoiceViewController.swift; sourceTree = "<group>"; };
+		B185B5711CD8F2FB001F69A8 /* SelectGenreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectGenreViewController.swift; sourceTree = "<group>"; };
+		B185B5731CD8F79C001F69A8 /* AddCommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCommentsViewController.swift; sourceTree = "<group>"; };
+		B185B5751CD8F88E001F69A8 /* SubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		B185B5771CD8FF7F001F69A8 /* Whistler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Whistler.entitlements; sourceTree = "<group>"; };
+		B185B5781CD8FF83001F69A8 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		B185B57A1CD904B8001F69A8 /* Whistle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Whistle.swift; sourceTree = "<group>"; };
+		B18E6AF11CDA37D6009100EE /* UIViewController+FillWithView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+FillWithView.swift"; sourceTree = "<group>"; };
+		B18E6AF31CDA3884009100EE /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B185B5791CD8FF83001F69A8 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +56,7 @@
 		B185B5511CD8EE31001F69A8 = {
 			isa = PBXGroup;
 			children = (
+				B185B5781CD8FF83001F69A8 /* CloudKit.framework */,
 				B185B55C1CD8EE31001F69A8 /* Whistler */,
 				B185B55B1CD8EE31001F69A8 /* Products */,
 			);
@@ -54,8 +73,16 @@
 		B185B55C1CD8EE31001F69A8 /* Whistler */ = {
 			isa = PBXGroup;
 			children = (
+				B185B5771CD8FF7F001F69A8 /* Whistler.entitlements */,
 				B185B55D1CD8EE31001F69A8 /* AppDelegate.swift */,
 				B185B55F1CD8EE31001F69A8 /* ViewController.swift */,
+				B18E6AF11CDA37D6009100EE /* UIViewController+FillWithView.swift */,
+				B18E6AF31CDA3884009100EE /* ResultsTableViewController.swift */,
+				B185B57A1CD904B8001F69A8 /* Whistle.swift */,
+				B185B56F1CD8EEBC001F69A8 /* RecordVoiceViewController.swift */,
+				B185B5711CD8F2FB001F69A8 /* SelectGenreViewController.swift */,
+				B185B5731CD8F79C001F69A8 /* AddCommentsViewController.swift */,
+				B185B5751CD8F88E001F69A8 /* SubmitViewController.swift */,
 				B185B5611CD8EE31001F69A8 /* Main.storyboard */,
 				B185B5641CD8EE31001F69A8 /* Assets.xcassets */,
 				B185B5661CD8EE31001F69A8 /* LaunchScreen.storyboard */,
@@ -96,6 +123,12 @@
 				TargetAttributes = {
 					B185B5591CD8EE31001F69A8 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3JXD5NPUU6;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,6 +169,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B185B5601CD8EE31001F69A8 /* ViewController.swift in Sources */,
+				B185B5741CD8F79C001F69A8 /* AddCommentsViewController.swift in Sources */,
+				B185B5701CD8EEBC001F69A8 /* RecordVoiceViewController.swift in Sources */,
+				B185B5721CD8F2FB001F69A8 /* SelectGenreViewController.swift in Sources */,
+				B18E6AF21CDA37D6009100EE /* UIViewController+FillWithView.swift in Sources */,
+				B185B57B1CD904B8001F69A8 /* Whistle.swift in Sources */,
+				B18E6AF41CDA3884009100EE /* ResultsTableViewController.swift in Sources */,
+				B185B5761CD8F88E001F69A8 /* SubmitViewController.swift in Sources */,
 				B185B55E1CD8EE31001F69A8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Whistler/Whistler.entitlements;
 				INFOPLIST_FILE = Whistler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MVP.Whistler;
@@ -260,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Whistler/Whistler.entitlements;
 				INFOPLIST_FILE = Whistler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MVP.Whistler;
@@ -286,6 +328,7 @@
 				B185B56E1CD8EE31001F69A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
